@@ -48,7 +48,7 @@ a {
   justify-content: center;
   flex-wrap:wrap;
 }
-.mission h2, h4 {
+#mission h2, h4 {
   background-color: black;
   padding: 10px;
   width: 1200px;
