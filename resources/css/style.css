@@ -10,6 +10,7 @@ body {
 header {
   height: 69px;
   position: fixed;
+  background-color: black;
   border-bottom: 1px solid seashell;
   width: 100%;
   align-items: center;
@@ -32,9 +33,10 @@ a {
   color: seashell;
 }
 .main{
+  opacity: 0.9;
   display: flex;
   top: 70px;
-  position: relative;
+  position: absolute;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -43,16 +45,80 @@ a {
 .cover {
   background-image: url(./../images/img-mission-background.jpg);
   height: 700px;
+  width: 1200px;
   display: flex;
-  min-width: 1200px;
   align-items: center;
   background-repeat: no-repeat;
+
 }
-#mission h2, h4 {
+.mission {
+  width: 100%;
+}
+.mission h2,
+  h4 {
   background-color: black;
   padding: 10px;
-  width: 1200px;
-  flex: 1 1;
+  width: 100%;
+
   display: block;
   margin: 0px;
+}
+#teas {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding-top: 70px;
+  margin: auto;
+}
+.teaimg {
+  display: flex;
+  height: 500px;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.teaboxes {
+padding: 15px;
+}
+
+.teaboxes img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#locations {
+   display: flex;
+   background-image: url("./../images/img-locations-background.jpg");
+   height: 500px;
+   width: 1200px;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 100px;
+   padding-top: 50px;
+}
+#adress {
+  display: flex;
+  justify-content: center;
+}
+.stores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  opacity: 1;
+  background: black;
+  margin: 15px 40px;
+}
+#contact {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer {
+  padding-left: 20px;
+  text-align: left;
+  width: 100%;
 }
