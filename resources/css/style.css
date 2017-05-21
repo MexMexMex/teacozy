@@ -35,18 +35,18 @@ a {
   display: flex;
   top: 70px;
   position: relative;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 .cover {
   background-image: url(./../images/img-mission-background.jpg);
   height: 700px;
   display: flex;
-  background-repeat: no-repeat;
-  align-items: center;
-  position: relative;
   min-width: 1200px;
-  justify-content: center;
-  flex-wrap:wrap;
+  align-items: center;
+  background-repeat: no-repeat;
 }
 #mission h2, h4 {
   background-color: black;
